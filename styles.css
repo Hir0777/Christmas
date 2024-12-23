@@ -67,3 +67,13 @@ button:hover {
     justify-content: center;
     align-items: center;
   }
+
+.snowflake {
+    position: fixed;
+    top: -10px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: 9999;
+}
